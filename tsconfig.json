@@ -20,5 +20,14 @@
     "noFallthroughCasesInSwitch": true,
     "strictFunctionTypes": true,
     "strictPropertyInitialization": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowJs": true,
+    "paths": {
+      "@test/*": ["test/*"],
+      "@src/*": ["src/*"],
+      "@config/*": ["src/config/*"]
+    }
   }
 }
