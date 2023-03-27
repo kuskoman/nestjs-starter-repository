@@ -29,6 +29,7 @@
     "@nestjs/swagger": "^6.2.1",
     "@nestjs/terminus": "^9.2.1",
     "@willsoto/nestjs-prometheus": "^5.1.0",
+    "prisma": "^4.11.0",
     "prom-client": "^14.2.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^4.4.1",
