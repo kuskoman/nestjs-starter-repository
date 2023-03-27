@@ -1,9 +1,9 @@
 FROM node:17.7-alpine3.15 as base
 
-ONBUILD WORKDIR /app
+WORKDIR /app
 
-ONBUILD COPY package.json package.json
-ONBUILD COPY yarn.lock yarn.lock
+COPY package.json package.json
+COPY yarn.lock yarn.lock
 
 
 FROM base as modules
